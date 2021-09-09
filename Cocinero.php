@@ -7,11 +7,16 @@ class Cocinero extends Persona {
 
     public  $especialidad;
     public  $horario;  
+    public  $hora_salida;
     public static $hora_entrada = '08:00'; // Creamos una variable estática
+   
     
     public function saludoCumpleanios(){
         //Esto se conoce sobre escritura, ya que esta función existe en la clase padre
         return "Feliz cumpleaños al mejor cocinero " . $this->nombreCompleto();
     }
 
+    public function calcularHorasTrabajadas(){
+        return self::$hora_entrada . " " . $this->hora_salida;
+    }
 }

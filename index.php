@@ -9,9 +9,12 @@ echo Cocinero::$hora_entrada . "<br>";
 
 $ruben = new Cocinero();
 $ruben->nombre = ' Dario';
+$ruben->hora_salida = '13:00';
 $ruben->apellidos = 'Chaname';
 
 echo $ruben->saludoCumpleanios();
+echo $ruben->calcularHorasTrabajadas();
+echo "<br>";
 
 $dario = new Repartidor();
 $dario->nombre = "Dario";
