@@ -1,22 +1,9 @@
 <?php
 
-class Cocinero{
+class Cocinero extends Persona {
+    //Con poner la palabra clase extends y la clase padre, todos los métodos y atributos de la clase padre se heredan
 
-    public  $apellidos;
-    public  $nombre;
-    public  $dni;
-    public  $direccion;
-    public  $celular;
-    public  $fecha_nacimiento;
     public  $especialidad;
-    public  $horario;
-
-    public function nombreCompleto(){
-        return $this->nombres . " " . $this->apellidos;
-    }
-
-    public function saludoCumpleanios(){
-        return "Feliz cumpleaños" . $this->nombreCompleto();
-    }
+    public  $horario;    
 
 }
