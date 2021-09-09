@@ -1,6 +1,6 @@
 <?php
 
-class Cocinero{
+class Repartidor{
 
     public  $apellidos;
     public  $nombre;
