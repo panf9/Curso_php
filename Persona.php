@@ -10,7 +10,7 @@ class Persona {
     public  $fecha_nacimiento;
 
     public function nombreCompleto(){
-        return $this->nombres . " " . $this->apellidos;
+        return $this->nombre . " " . $this->apellidos;
     }
 
     public function saludoCumpleanios(){
