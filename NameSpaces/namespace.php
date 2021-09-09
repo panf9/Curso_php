@@ -15,7 +15,7 @@ $nelzon = new \Hector\Usuario();
 echo $nelzon->registrador();
 echo "<br>";
 
-$lazaro = new \Marco\Usuario();
+$lazaro = new \MarcoAntonio\Usuario();
 echo $lazaro->verificarPermiso();
 echo "<br>";
 

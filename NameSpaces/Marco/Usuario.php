@@ -1,6 +1,6 @@
 <?php
 
-namespace Marco; 
+namespace MarcoAntonio; 
 
 class Usuario
 {
