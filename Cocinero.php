@@ -7,6 +7,7 @@ class Cocinero extends Persona {
 
     public  $especialidad;
     public  $horario;  
+    public static $hora_entrada = '08:00'; // Creamos una variable estática
     
     public function saludoCumpleanios(){
         //Esto se conoce sobre escritura, ya que esta función existe en la clase padre
