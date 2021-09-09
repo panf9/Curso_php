@@ -16,6 +16,11 @@ echo $ruben->saludoCumpleanios();
 echo $ruben->calcularHorasTrabajadas();
 echo "<br>";
 
+$ruben->costo_hora = 10;
+$ruben->horas_diarias = 7;
+echo $ruben->calcularSueldo();
+echo "<br>";
+
 $dario = new Repartidor();
 $dario->nombre = "Dario";
 $dario->apellidos = 'Perez';
