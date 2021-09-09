@@ -10,11 +10,11 @@ class Persona {
     public  $fecha_nacimiento;
 
     public function nombreCompleto(){
-        return $this->nombre . " " . $this->apellidos;
+        return $this->nombre . " " . $this->apellidos . "<br>";
     }
 
     public function saludoCumpleanios(){
-        return "Feliz cumpleaños" . $this->nombreCompleto();
+        return "Feliz cumpleaños " . $this->nombreCompleto();
     }
 
 }
